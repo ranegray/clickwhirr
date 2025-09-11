@@ -87,7 +87,8 @@ export default function DashboardNav() {
                 </div>
                 <div className="text-center text-gray-500 mt-4">
                     <p>Help us build the future of robotics education</p>
-                    <Link href={"/membership"} className="text-orange-600 hover:underline">
+                    {/* TODO Set up Clerk billing here */}
+                    <Link href={"#"} className="text-orange-600 hover:underline">
                         Subscribe
                     </Link>
                 </div>

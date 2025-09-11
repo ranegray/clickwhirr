@@ -31,8 +31,7 @@ export default function ExpandableCard({
             >
                 <div className="flex-1">{header}</div>
                 <div className="text-gray-400">
-                    {/* Icon to indicate expand/collapse */}
-                    {/* Rotate icon when expanded */}
+                    {/* TODO this doesnt rotate icon */}
                     <span className={`transition-transform ${isExpanded ? "rotate-180" : ""}`}>{icon}</span>
                 </div>
             </div>
